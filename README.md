@@ -28,4 +28,12 @@ Just run the command to execute the spider and you should see the debug log in t
 
 ```
 scrapy crawl CraigSpider
+
+```
+
+Or run the following to store in a CSV
+
+```
+scrapy crawl CraigSpider -o items.csv -t csv
+
 ```

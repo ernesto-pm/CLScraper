@@ -8,7 +8,7 @@
 import scrapy
 
 
-class ScrapyversionItem(scrapy.Item):
+class Job(scrapy.Item):
     title = scrapy.Field()
     link = scrapy.Field()
     # define the fields for your item here like:
