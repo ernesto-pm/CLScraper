@@ -8,9 +8,16 @@
 import scrapy
 
 
-class Job(scrapy.Item):
+class Link(scrapy.Item):
     title = scrapy.Field()
     link = scrapy.Field()
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+
+
+class Job(scrapy.Item):
+    title = scrapy.Field()
+    link = scrapy.Field()
+    description = scrapy.Field()
+    email = scrapy.Field()
+    date = scrapy.Field()
