@@ -21,3 +21,4 @@ class Job(scrapy.Item):
     description = scrapy.Field()
     email = scrapy.Field()
     date = scrapy.Field()
+    location = scrapy.Field()
